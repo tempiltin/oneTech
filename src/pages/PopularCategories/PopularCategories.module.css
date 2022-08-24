@@ -1,0 +1,30 @@
+.PopularCategoryRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PopularCategoryRow .PopularCategoryRight {
+    width: 75%;
+}
+
+
+.PopularCategoryRow .PopularCategoryLeft {
+    width: 25%;
+}
+
+.PopularCategoryRow .PopularCategoryLeft h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.2;
+    width: min-content;
+    margin-bottom:100px;
+}
+
+.PopularCategoryRow .PopularCategoryLeft a{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #0e8ce4;
+}

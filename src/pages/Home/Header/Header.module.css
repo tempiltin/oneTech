@@ -1,0 +1,101 @@
+.Header {
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.Header .Bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Header .Bg img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.Header .HeaderItem {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.Header .HeaderItem .HeaderLeft h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.166;
+    color: #7599b2;
+    text-transform: uppercase;
+    letter-spacing: .038em;
+    font-size: 48px;
+}
+
+
+.Header .HeaderItem .HeaderLeft .Prices {
+    font-size: 30px;
+    color: #df3b3b;
+    margin-top: 87px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.Header .HeaderItem .HeaderLeft .Prices .OldPrice h4{
+    color: #7e8285;
+    text-decoration: line-through;
+    margin-right: 14px;font-weight: 400;
+}
+
+.Header .HeaderItem .HeaderLeft .Prices  .NewPrice h4{
+    font-weight: 400;
+}
+
+
+.Header .HeaderItem .HeaderLeft h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 8px;
+    margin-bottom: 42px;
+} 
+
+.Header .HeaderItem .HeaderLeft button{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #fff;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: #0e8ce4;
+    border-radius: 5px;
+    height: 48px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    border: none;
+}
+
+
+.Header .HeaderItem .HeaderLeft{
+    position: relative;width: 50%;
+}
+
+.Header .HeaderItem .HeaderLeft button:hover{
+    opacity: .8;
+}
+
+.Header .HeaderItem .HeaderRight{
+position: absolute;
+right: 0;
+top: 15%;
+}

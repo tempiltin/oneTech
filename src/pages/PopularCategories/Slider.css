@@ -1,0 +1,23 @@
+.slick-slider .slick-arrow.slick-prev,
+.slick-slider .slick-arrow.slick-next
+ {
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 16px;
+    border: none;
+    position: absolute;
+    top: 20px;
+}
+
+.slick-slider .slick-arrow.slick-prev{
+    left: -292px;
+
+}
+.slick-slider .slick-arrow.slick-next{
+    left: -235px;
+
+}

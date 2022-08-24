@@ -1,0 +1,336 @@
+.Navbar{
+    position: relative;
+    z-index: 10;
+}
+
+.Navbar .Navbar_Top {
+    background: #fafafa;
+    border-bottom: solid 1px rgba(0, 0, 0, .05);
+    z-index: 2;
+}
+
+.Navbar .Row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Left {
+    display: flex;
+    align-items: center;
+}
+
+.Right {
+    display: flex;
+    align-items: center;
+}
+
+
+.Left a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 56px;
+    margin-right: 40px;
+    color: #000;
+    margin-left: 14px;
+}
+
+.Left .PhoneNumber {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Right */
+
+.Right .Register {
+    display: flex;
+    align-items: center;
+}
+
+.Right a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 56px;
+    color: #000;
+}
+
+.Right .Register img {
+    width: 16px;
+    margin-right: 13px;
+}
+
+.Right .Register a {
+
+    margin-right: 15px;
+}
+
+.Right .Login a {
+    border-left: 1px solid rgba(0, 0, 0, .1);
+    padding-left: 10px;
+}
+
+/* Navbar Center */
+
+.Navbar_Center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo_search {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.Logo_search .Logo {
+    width: 200px;
+}
+
+
+.Logo_search img {
+    width: 100%;
+}
+
+.Search_div {
+    display: flex;
+    align-items: center;
+}
+
+.Search_div .input_Search input {
+    padding: 13px;
+    padding-left: 26px;
+    color: #7f7f7f;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: solid 1px #e5e5e5;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 300px;
+    border-right: none;
+    outline: none;
+    letter-spacing: 0.5px;
+}
+
+.Search_div .Category_Search select {
+    color: #7f7f7f;
+    cursor: pointer;
+    padding: 12.5px;
+    padding-left: 26px;
+    border: solid 1px #e5e5e5;
+    outline: none;
+    letter-spacing: 0.5px;
+    width: 200px;
+
+}
+
+.Search_div .SearchIcon {
+    width: 50px;
+    height: 44.6px;
+    background: #0e8ce4;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.Search_div .SearchIcon img {
+    width: 50%;
+}
+
+.Navbar_center_right {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar_center_right .Wishlist,
+.Navbar_center_right .Cart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.Navbar_center_right .Wishlist {
+    margin-right: 40px;
+}
+
+.Navbar_center_right .Wishlist_left {
+    margin-right: 10px;
+}
+
+.Navbar_center_right h6 {
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 200ms ease;
+}
+
+.Navbar_center_right p {
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+
+.Navbar_center_right .Cart .Wishlist_left {
+    margin-right: 20px;
+}
+
+.Navbar_center_right .Wishlist_left span {
+    position: absolute;
+    display: block;
+    line-height: 23px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #0e8ce4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    bottom: 2px;
+    left: 15px;
+}
+
+
+
+/* Navbar_Bottom */
+
+
+.Navbar_Bottom {
+    border-top: solid 1px #f2f2f2;
+    box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+    background: #fff;
+}
+
+.Navbar_Bottom .categories {
+    position: relative;
+}
+
+
+.Navbar_Bottom .Navbar_Bottom_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar_Bottom .categories .item {
+    display: flex;
+    align-items: center;
+    width: 293px;
+    height: 60px;
+    background: #0e8ce4;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 3px;
+    padding-left: 30px;
+}
+
+.Navbar_Bottom .categories .item i {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.Navbar_Bottom .categories .mores {
+    display: flex;
+    flex-direction: column;
+    width: 293px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
+    position: absolute;
+}
+
+.Navbar_Bottom .categories .mores .hovers {
+    cursor: pointer;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #f2f2f2;
+    padding-left: 35px;
+    padding-right: 30px;
+
+}
+
+.Navbar_Bottom .categories .mores .hovers h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.Navbar_Bottom .navbar_bottom_right {
+    width: 40%;
+}
+
+.Navbar_Bottom .navbar_bottom_right ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.Navbar_Bottom .navbar_bottom_right ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #a19a9a;
+    line-height: 60px;
+}
+
+.Navbar_Bottom .navbar_bottom_right ul li:hover .hovered {
+    opacity: 1;
+}
+
+.Navbar_Bottom .navbar_bottom_right ul li i {
+    font-size: 15px;
+    color: #a19a9a;
+    line-height: 60px;
+}
+
+.Navbar_Bottom .navbar_bottom_right ul li .hovered {
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 10px 25px rgb(0 0 0 / 10%);
+    transition: all .3s ease;
+    width: max-content;
+    opacity: 0;
+}
+
+.Navbar_Bottom .navbar_bottom_right ul li .hovered ul {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.Navbar_Bottom .navbar_bottom_right ul li {
+    position: relative;
+}
+
+.Navbar_Bottom .navbar_bottom_right ul li .hovered ul li {
+    position: inherit;
+    padding: 0 15px;
+}
+
+.Navbar_Bottom .navbar_bottom_right ul li .hovered ul li a {
+    line-height: 15px;
+    transition: all 200ms ease;
+    display: block;
+    padding: 17px 0;
+    border-bottom: solid 1px #f2f2f2;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.Navbar_Bottom .navbar_bottom_right ul li .hovered ul li a:hover {
+    color: #0e8ce4;
+}
